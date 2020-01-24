@@ -1,5 +1,30 @@
+## ---------------------------
+##
+## Script name: Create OPHUS
+##
+## Purpose of script: Reads in species descritions, create ophus and exports them into ontology
+##
+## Author: Sergei Tarasov
+##
+## Date Created: 2020-01-24
+##
+## Copyright (c) Sergei Tarasov, 2020
+## Email: sergei.tarasov@helsinki.fi
+##
+## ---------------------------
+##
+## Notes:
+##   
+##
+## ---------------------------
 
-setwd("~/Documents/My_papers/Semantic_discriptions/Protege/PhenoScript_R/PhenoScript/Dichotomius_paper/R_scripts")
+## set working directory
+
+setwd("~/Documents/My_papers/Semantic_discriptions/Protege/PhenoScript_R/PhenoScript/Dichotomius_paper/R_scripts")     
+
+## ---------------------------
+
+## load up the packages we will need:  (uncomment as required)
 
 #devtools::install_github('coolbutuseless/minilexer')
 library(reticulate)
@@ -16,12 +41,19 @@ library(tibble)
 library(jsonld)
 library("redland")
 
+## ---------------------------
+
+## load up our functions into memory
+
 setwd("~/Documents/My_papers/Semantic_discriptions/Protege/PhenoScript_R/PhenoScript/Dichotomius_paper/R_scripts/Functions")
 source('parser_functions.R')
-source_python('py_func.R')
+source_python('py_func.R') 
+
+## ---------------------------
 
 
-# Setwd Descritions
+
+# Setwd Descriptions
 setwd("~/Documents/My_papers/Semantic_discriptions/Protege/PhenoScript_R/PhenoScript/Dichotomius_paper/Description")
 
 #   ____________________________________________________________________________
