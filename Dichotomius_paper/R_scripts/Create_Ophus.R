@@ -148,7 +148,7 @@ for (i in 1:length(owl.syn)){
   
   CL1 <- py_make_class(class_id=paste0('ophu_sp_',j,'_', i), subclass_of='scarab.OPHU_EQ', restriction='equivalent_to', def=owl.syn[i])
   py_run_string(CL1, local = FALSE, convert = F)
-  #  }
+  # }
 }
 
 py_run_string('scarab.save(file = "SCARAB_merged.owl", format = "rdfxml")', local = FALSE, convert = F)
@@ -167,7 +167,7 @@ man.syn.E <- sapply(sp_descr[[1]], function(x) create_ophus_E(x), USE.NAMES = F)
 owl.syn.E <- sapply(man.syn.E, function(x) translate2URIs_oneToken(x, ont.transl, Manchester.pattern), USE.NAMES = F)
 
 for (i in 1:length(owl.syn.E)){
-  CL1 <- py_make_class(class_id=paste0('ophu_E_',i), subclass_of='OPHU_E', restriction='is_a', def=owl.syn.E[i])
+  CL1 <- py_make_class(class_id=paste0('ophu_E_',i), subclass_of='scarab.OPHU_E', restriction='is_a', def=owl.syn.E[i])
   py_run_string(CL1, local = FALSE, convert = F)
 }
 

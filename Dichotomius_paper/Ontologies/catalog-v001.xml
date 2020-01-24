@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bspo/releases/2019-07-24/bspo.owl" uri="BSPO.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ro/releases/2019-09-25/ro.owl" uri="RO.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bspo/releases/2019-07-24/bspo.owl" uri="BSPO.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/pato/releases/2019-09-05/pato.owl" uri="PATO.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bspo/releases/2019-07-24/bspo.owl" uri="BSPO.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1579856567271" name="duplicate:http://orcid.org/0000-0001-5237-2330/2019/10/version1.0/scarab" uri="SCARAB_merged.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1579856567271" name="duplicate:http://orcid.org/0000-0001-5237-2330/2019/10/version1.0/scarab" uri="SCARAB.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1579856567271" name="http://purl.obolibrary.org/obo/bspo.owl" uri="BSPO.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1579856567271" name="http://purl.obolibrary.org/obo/hao.owl" uri="HAO.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1579856567271" name="http://purl.obolibrary.org/obo/iao.owl" uri="IAO.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1579856567271" name="http://purl.obolibrary.org/obo/pato.owl" uri="PATO.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1579856567271" name="http://purl.obolibrary.org/obo/ro.owl" uri="RO.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1579856567271" name="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl" uri="CDAO.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1579856567271" name="http://www.semanticweb.org/taravser/ontologies/2019/9/RO_reduced" uri="RO_reduced.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1579866622355" name="http://orcid.org/0000-0001-5237-2330/2019/10/version1.0/scarab" uri="SCARAB.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1579866622355" name="http://purl.obolibrary.org/obo/bspo.owl" uri="BSPO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1579866622355" name="http://purl.obolibrary.org/obo/hao.owl" uri="HAO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1579866622355" name="http://purl.obolibrary.org/obo/iao.owl" uri="IAO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1579866622355" name="http://purl.obolibrary.org/obo/pato.owl" uri="PATO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1579866622355" name="http://purl.obolibrary.org/obo/ro.owl" uri="RO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1579866622355" name="http://purl.obolibrary.org/obo/ro/core.owl" uri="SCARAB_merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1579866622355" name="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl" uri="CDAO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1579866622355" name="http://www.semanticweb.org/taravser/ontologies/2019/9/RO_reduced" uri="RO_reduced.owl"/>
     </group>
 </catalog>
