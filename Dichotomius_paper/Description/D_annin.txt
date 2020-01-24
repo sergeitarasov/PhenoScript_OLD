@@ -1,0 +1,26 @@
+{Dichotomius anningiae}
+
+clypeus has_part.(anterior_region bearer_of.(punctate));
+frontal_horn has_part.(dorsobasal_region bearer_of.(platelike));
+frontal_horn bearer_of.(elongated);
+pronotum has_part.(
+  interpunctural_distance bearer_of.(length has_measurement.(
+    has_unit.(diameter inheres_in.(puncture)), has_magnitude.(=2float)))
+  );
+elytral_stria bearer_of.(increased_depth);
+stria has_part.(
+  interpunctural_distance bearer_of.(length has_measurement.(
+    has_unit.(diameter inheres_in.(puncture)), has_magnitude.(=2float)))
+  );
+profemur has_part.(ventral_region has_part.(apical_region bearer_of.(punctate)));
+pygidial_plate has_part.(
+  dorsal_side has_part.(interpunctural_distance bearer_of.(length has_measurement.(
+    has_unit.(diameter inheres_in.(puncture)), has_magnitude.(=0.5float))))
+  );
+pygidial_plate has_part.(apical_margin bearer_of.(marginate));
+
+
+body bearer_of.(length has_measurement.(has_unit.(mm), has_magnitude.(>11.0,<12.0float)));
+
+
+parameres has_part.(apical_margin bearer_of.(blunt));

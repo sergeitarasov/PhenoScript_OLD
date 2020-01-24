@@ -1,0 +1,23 @@
+[PrefixDeclaration]
+:		http://orcid.org/0000-0001-5237-2330/2019/10/version1.0/scarab#
+obo:		http://purl.obolibrary.org/obo/
+owl:		http://www.w3.org/2002/07/owl#
+rdf:		http://www.w3.org/1999/02/22-rdf-syntax-ns#
+xml:		http://www.w3.org/XML/1998/namespace
+xsd:		http://www.w3.org/2001/XMLSchema#
+bspo:		http://purl.obolibrary.org/obo/bspo#
+cito:		http://purl.org/spar/cito/
+obda:		https://w3id.org/obda/vocabulary#
+pato:		http://purl.obolibrary.org/obo/pato#
+rdfs:		http://www.w3.org/2000/01/rdf-schema#
+swrla:		http://swrl.stanford.edu/ontologies/3.3/swrla.owl#
+terms:		http://purl.org/dc/terms/
+x_0.1:		http://xmlns.com/foaf/0.1/
+x_1.1:		http://purl.org/dc/elements/1.1/
+subsets:		http://purl.obolibrary.org/obo/ro/subsets#
+oboInOwl:	http://www.geneontology.org/formats/oboInOwl#
+oboInOwl1:	ttp://www.geneontology.org/formats/oboInOwl#
+
+[MappingDeclaration] @collection [[
+]]
+
