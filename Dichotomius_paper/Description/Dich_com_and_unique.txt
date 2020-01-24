@@ -1,0 +1,138 @@
+
+{Dichotomius anningiae}
+
+clypeus has_part.(anterior_region bearer_of.(punctate));
+frontal_horn has_part.(dorsobasal_region bearer_of.(platelike));
+frontal_horn bearer_of.(elongated);
+pronotum has_part.(
+  interpunctural_distance bearer_of.(length has_measurement.(
+    has_unit.(diameter inheres_in.(puncture)), has_magnitude.(=2float)))
+  );
+elytral_stria bearer_of.(increased_depth);
+stria has_part.(
+  interpunctural_distance bearer_of.(length has_measurement.(
+    has_unit.(diameter inheres_in.(puncture)), has_magnitude.(=2float)))
+  );
+profemur has_part.(ventral_region has_part.(apical_region bearer_of.(punctate)));
+pygidial_plate has_part.(
+  dorsal_side has_part.(interpunctural_distance bearer_of.(length has_measurement.(
+    has_unit.(diameter inheres_in.(puncture)), has_magnitude.(=0.5float))))
+  );
+pygidial_plate has_part.(apical_margin bearer_of.(marginate));
+
+
+body bearer_of.(length has_measurement.(has_unit.(mm), has_magnitude.(>11.0,<12.0float)));
+
+
+parameres has_part.(apical_margin bearer_of.(blunt));
+
+#---------------------------------------------------------------------------------
+{Dichotomius casariae}
+
+clypeus has_part.(anterior_region bearer_of.(wrinkled));
+frontal_horn has_part.(dorsobasal_region bearer_of.(platelike));
+frontal_horn bearer_of.(elongated);
+pronotum has_part.(
+  interpunctural_distance bearer_of.(length has_measurement.(
+    has_unit.(diameter inheres_in.(puncture)), has_magnitude.(=3float)))
+  );
+elytral_stria bearer_of.(increased_depth);
+elytral_stria has_part.(
+  interpunctural_distance bearer_of.(length has_measurement.(
+    has_unit.(diameter inheres_in.(puncture)), has_magnitude.(=4float)))
+  );
+profemur has_part.(ventral_region has_part.(apical_region bearer_of.(punctate)));
+pygidial_plate has_part.(
+  dorsal_side has_part.(interpunctural_distance bearer_of.(length has_measurement.(
+    has_unit.(diameter inheres_in.(puncture)), has_magnitude.(=1float))))
+  );
+pygidial_plate has_part.(not(apical_margin bearer_of.(marginate));
+
+body bearer_of.(length has_measurement.(has_unit.(mm), has_magnitude.(>11.0,<14.0float)));
+
+
+parameres has_part.(apical_margin bearer_of.(blunt));
+SRP_sclerite has_part.(left_region bearer_of.(tripartite));
+LC_sclerite has_part.(superior_region bearer_of.(inverse_h_shape));
+
+#------------------------------------------------------------------------------------
+
+{Dichotomius franklinae}
+
+clypeus has_part.(anterior_region bearer_of.(wrinkled));
+frontal_horn bearer_of.(tubercle);
+pronotum has_part.(interpunctural_distance bearer_of.(length has_measurement.(has_unit.(diameter inheres_in.(puncture)), has_magnitude.(=1float))));
+elytral_stria bearer_of.(decreased_depth);
+elytral_stria has_part.(
+  interpunctural_distance bearer_of.(length has_measurement.(
+    has_unit.(diameter inheres_in.(puncture)), has_magnitude.(=4float)))
+  );
+profemur has_part.(ventral_region bearer_of.(punctate));
+pygidial_plate has_part.(
+  dorsal_side has_part.(interpunctural_distance bearer_of.(length has_measurement.(
+    has_unit.(diameter inheres_in.(puncture)), has_magnitude.(=0.5float))))
+  );
+pygidial_plate has_part.(not(apical_margin bearer_of.(marginate));
+
+
+
+#How to express size variation
+body bearer_of.(length has_measurement.(has_unit.(mm), has_magnitude.(>11.0,<13.0float)));
+
+
+parameres has_part.(apical_margin bearer_of.(truncated));
+SRP_sclerite has_part.(left_region (bearer_of.(bipartite)));
+LC_sclerite has_part.(not(superior_region (bearer_of.(inverse_h_shape)));
+
+#--------------------------------------------------------------------------------
+
+{Dichotomius common}
+
+body has_part.(dorsal_side bearer_of.(black));
+body has_part.(dorsal_side bearer_of.(opaque));
+clypeus has_part.(anterior_region has_component.(exactly(==2 tooth)));
+clypeal_tooth bearer_of.(blunt);
+interdental_clypeal_space bearer_of.(V-shaped);
+clypeogenal_sulcus;
+antennal_club bearer_of.(light_brown);
+pronotum bearer_of.(width has_measurement.(has_unit.(length inheres_in.(pronotum)), has_magnitude.(=2float)));
+pronotum has_part.(central_region bearer_of.(convex));
+anterior_angle_of_pronotum bearer_of.(blunt);
+pronotum has_part.(
+  posterior_margin bearer_of.(punctate increased_in_magnitude_relative_to.(
+    punctate inheres_in.(central_region part_of.(pronotum) ) ))
+  );
+hypomeron bearer_of.(punctate);
+hypomeron bearer_of.(collection_of_setae bearer_of.(orange));
+prosternum bearer_of.(punctate);
+mesosternum bearer_of.(punctate);
+mesosternum has_part.(collection_of_setae bearer_of.(orange));
+metasternum has_part.(not(central_region), bearer_of.(punctate));
+metasternum has_part.(lateral_region has_part.(collection_of_setae));
+mesometasternal_suture bearer_of.(conspicuous);
+metasternum has_part.(anterior_margin bearer_of.(width has_measurement.(has_unit.(length inheres_in.(metafemur)), has_magnitude.(=2float))));
+metasternal_medial_longitudinal_sulcus bearer_of.(inconspicuous);
+metasternum has_part.(lateral_region bearer_of.(
+  punctate increased_in_magnitude_relative_to.(punctate inheres_in.(anterior_region part_of.(metasternum))))
+);
+# collection of stria
+elytral_stria bearer_of.(decreased_width);
+
+fore_tibia has_component.(exactly(==4 tooth));
+protibial_spur bearer_of.(bent);
+mesofemur has_part.(ventral_region has_part.(apical_region bearer_of.(punctate)));
+metafemur has_part.(ventral_region has_part.(apical_region bearer_of.(punctate)));
+pygidial_plate bearer_of.(width increased_in_magnitude_relative_to.(length inheres_in.(pygidial_plate)));
+pygidial_plate bearer_of.(triangular);
+
+parameres bearer_of.(rectangular);
+A_sclerite bearer_of.(elongated);
+A_sclerite has_part.(inferior_region bearer_of.(tapered));
+SA_sclerite has_part.(superior_region bearer_of.(tapered));
+SA_sclerite has_part.(inferior_region bearer_of.(reticulate));
+SRP_sclerite bearer_of.(C-shaped);
+SRP_sclerite has_part.(left_region bearer_of.(broad));
+FLP_sclerite has_part.(superior_region bearer_of.(C-shaped));
+LC_sclerite bearer_of.(spiny);
+LC_sclerite has_part.(superior_region bearer_of.(falciform));
+LC_sclerite has_part.(medial_region bearer_of.(longitudinal_fold));
