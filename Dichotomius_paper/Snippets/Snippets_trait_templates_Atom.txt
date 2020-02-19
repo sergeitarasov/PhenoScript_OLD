@@ -1,0 +1,41 @@
+
+'Quality Trait':
+  'prefix': 'tmp_quality'
+  'body': '${1:"E"} bearer_of.(${2:"Q"});$3'
+  'leftLabelHTML': '<span style="color:#AB47BC">Tm</span>'
+
+'Quality and Part Trait':
+  'prefix': 'tmp_part_quality'
+  'body': '${1:"E1"} has_part.(${2:"E2"} bearer_of.(${3:"Q2"}));$4'
+  'leftLabelHTML': '<span style="color:#AB47BC">Tm</span>'
+
+'Presence Trait':
+  'prefix': 'tmp_presence'
+  'body': '${1:"E1"} has_part.(${2:"E2"});$3'
+  'leftLabelHTML': '<span style="color:#AB47BC">Tm</span>'
+
+'Absence Trait':
+  'prefix': 'tmp_absence'
+  'body': '${1:"E1"} has_part.(not(${2:"E2"}));$3'
+  'leftLabelHTML': '<span style="color:#AB47BC">Tm</span>'
+
+'Relative comparison':
+  'prefix': 'tmp_relative_comp'
+  'body': '${1:"E1"} bearer_of.(length increased_in_magnitude_relative_to.(length inheres_in.(${2:"E2"})));$3'
+  'leftLabelHTML': '<span style="color:#AB47BC">Tm</span>'
+
+
+'Relative Measurement':
+  'prefix': 'tmp_relative_mes'
+  'body': '${1:"E1"} bearer_of.(length has_measurement.(has_unit.(length inheres_in.(${2:"E2"})), has_magnitude.(${3:"NUM1"}float)));$4'
+  'leftLabelHTML': '<span style="color:#AB47BC">Tm</span>'
+
+'Qaulity Exclusion Trait':
+  'prefix': 'tmp_ex_quality'
+  'body': '${1:"E1"} has_part.[(not(${2:"E2"}), bearer_of.(${3:"Q2"})), (${4:"E3"} bearer_of.(${5:"Q3"}))];$6'
+  'leftLabelHTML': '<span style="color:#AB47BC">Tm</span>'
+
+'Two Qaulities Trait':
+  'prefix': 'tmp_2_quality'
+  'body': '${1:"E1"} has_part.[(${2:"E2"} bearer_of.(${3:"Q2"})), (${4:"E3"} bearer_of.(${5:"Q3"}))];$6'
+  'leftLabelHTML': '<span style="color:#AB47BC">Tm</span>'
