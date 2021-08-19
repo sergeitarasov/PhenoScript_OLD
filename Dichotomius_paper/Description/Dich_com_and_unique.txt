@@ -2,6 +2,7 @@
 {Dichotomius anningiae}
 
 clypeus has_part.(anterior_region bearer_of.(punctate));
+#has_part.(clypeus, anterior_region)^bearer_of.(anterior_region, punctate);
 frontal_horn has_part.(dorsobasal_region bearer_of.(platelike));
 frontal_horn bearer_of.(elongated);
 pronotum has_part.(

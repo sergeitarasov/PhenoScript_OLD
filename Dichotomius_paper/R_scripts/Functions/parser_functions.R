@@ -65,6 +65,8 @@ Manchester.pattern <- c(
 # }
 
 #desc.str <- Manch
+#ont.names=ont.transl
+# desc.str=man.syn[[1]]
 translate2URIs_oneToken <- function(desc.str, ont.names, Manchester.pattern){
 
   sp_descr <-lex(desc.str, Manchester.pattern)
@@ -96,6 +98,29 @@ token2onto_ids <- function(one_token, ont.names){
 
 
 
+validate_token2onto_ids <- function(one_token, ont.names){
+  PP <- ont.names[match(one_token, ont.names)]
+  PPp <- which(PP==one_token)
+  one_token[PPp] <- names(PPp)
+  
+  # remove new lines to space
+  rem <- which(names(one_token)=='newline')
+  one_token[rem]<- ' '
+  names(one_token)[rem]<- 'whitespace'
+  
+  out <- one_token
+  
+  return(out)
+}
+
+validate_translate2URIs_oneToken <- function(desc.str, ont.names, Manchester.pattern){
+  
+  sp_descr <-lex(desc.str, Manchester.pattern)
+  sp_descr <-validate_token2onto_ids(sp_descr, ont.names)
+  
+  return(sp_descr)
+  
+}
 
 #   ____________________________________________________________________________
 #   Make objects for OWLREADY                                               ####
@@ -191,17 +216,24 @@ PhenoScript.pattern <- c(
   
   number      = "-?\\d*\\.?\\d+",
   
-  reserved = 'not',
-  reserved = 'Not',
+  # lbracket    = "\\(",
+  # rbracket    = "\\)",
+  
+  # reserved = 'not',
+  # reserved = 'Not',
+  
   reserved = 'some',
   reserved = 'only',
   reserved = 'exactly',
   reserved = 'min',
   reserved = 'max',
   
+
+  
   word.dot    = "\\w+\\.",
   word        = "\\w+-\\w+",
   word        = "\\w+",
+  
   
   
   #equals      = "==",
@@ -223,6 +255,11 @@ PhenoScript.pattern <- c(
 
 #lex(ophu, PhenoScript.pattern)
 
+ophu <- sp_descr[[1]][35]
+ophu <- sp_descr[[1]][34]
+ophu <-sp_descr[[1]][3]
+lex(ophu, PhenoScript.pattern)
+
 
 #xsd:integer[>= 0 , <= 20]
 #rdflib::rdf_parse('json1.txt', "jsonld")
@@ -237,6 +274,13 @@ PhenSci2json <- function(ophu, reserved.words.namespace='owl:', prop.namespace='
                          brackets.new = c('{', '}') ){
   
   pars.out <- lex(ophu, PhenoScript.pattern)
+  
+  #-- reserved words
+  reserved.symbols <- c('not', 'Not')
+  match(pars.out, reserved.symbols)
+  mmm <- pars.out %in% reserved.symbols
+  names(pars.out)[mmm] <- rep('reserved', sum(mmm))
+  #--------
   
   pars.new <- pars.out
   #pars.new <-gsub('\\.', '', pars.new)
@@ -904,7 +948,9 @@ trait_type <- function(triple.ophu){
 }
 
 
-
+# ophu <- sp_descr[[1]][35]
+# ophu <- sp_descr[[1]][34]
+#ophu <-sp_descr[[1]][3]
 create_ophus <- function(ophu){
   json.graph <- PhenSci2json(ophu, reserved.words.namespace='owl:', prop.namespace='obo:', id.prefix = '_test_', 
                              brackets.new = c('{', '}') )
