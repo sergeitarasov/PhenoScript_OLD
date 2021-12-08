@@ -4,5 +4,7 @@
   <img src="https://github.com/sergeitarasov/PhenoScript/blob/master/Phenoscript_logo.png" width="350" title="hover text">
 </p>  
 
+See [Wiki](https://github.com/sergeitarasov/PhenoScript/wiki)
+
 # Working Example
 The first working example of PhenoScript applied to Gryonoides (Hymenoptera: Scelionidae) is [here](https://github.com/sergeitarasov/PhenoScript/tree/master/Examples/Gryonoides).
