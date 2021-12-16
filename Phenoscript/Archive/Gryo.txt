@@ -1,0 +1,269 @@
+
+# ">", 'has_part.'
+# "<", 'part_of.'
+# '>>', 'bearer_of.'
+# '<<', 'inheres_in.'
+# '|>|' 'increased_in_magnitude_relative_to.'
+# '|<|' 'decreased_in_magnitude_relative_to.'
+# '|=|' 'has_count:'
+
+
+
+OTU=[ #Gryonoides_brasiliensis
+OTU_model=
+[
+  TU@CNCHYMEN_132936["to_Ophu_List"="has_phenotype", "rdfs:label"="Gryonoides_brasiliensis"]
+  denotes. female_organism@G_brasiliensis ["rdfs:label"="Gryonoides_brasiliensis"];
+
+  TU@CNCHYMEN_132936 denotes. Gryonoides;
+]
+
+
+Ophu_List=[
+#Gryonoides_brasiliensis
+# female_organism@G_brasiliensis > radicle >> yellow;
+# female_organism@G_brasiliensis > frontal_patch > (yellow, red) > f2 > (yellow, red);
+# female_organism@G_brasiliensis > f3 > (y1 > r1 > c1) > f4 > (s1 > ss1 > ss2);
+# female_organism@G_brasiliensis > f3 > (d1 > dd1 > ddd1);
+
+female_organism@G_brasiliensis > radicle@brasiliensis >> yellow;
+female_organism@G_brasiliensis > frontal_patch;
+female_organism@G_brasiliensis > tenth_flagellomere > multiporous_gustatory_sensillum |=|  1;
+female_organism@G_brasiliensis > fifth_flagellomere !> multiporous_gustatory_sensillum;
+female_organism@G_brasiliensis > radicle@brasiliensis >> elongated;
+female_organism@G_brasiliensis > radicle@brasiliensis >> length is_quality_measured_as. measurement_datum@2brasiliensis has_measurement_unit_label. minimum_width << radicle;
+female_organism@G_brasiliensis > measurement_datum@2brasiliensis has_measurement_value. 4.5;
+female_organism@G_brasiliensis > mandible@Man_brasiliensis > tooth |=|  1;
+female_organism@G_brasiliensis > dorsal_tooth >> length |>| length << lower_tooth;
+female_organism@G_brasiliensis > lower_tooth >> length |>| length << medial_tooth_of_the_mandible;
+female_organism@G_brasiliensis > genal_patch;
+female_organism@G_brasiliensis > clypeus >> length is_quality_measured_as. measurement_datum@clybrasiliensis has_measurement_unit_label. minimum_width << mandible@Man_brasiliensis;
+female_organism@G_brasiliensis > measurement_datum@clybrasiliensi has_measurement_value. 2.8;
+female_organism@G_brasiliensis > hyperoccipital_carina;
+female_organism@G_brasiliensis > vertex_patch;
+female_organism@G_brasiliensis > anterior_process_of_the_pronotum >> decreased_size;
+female_organism@G_brasiliensis > epomial_carina;
+female_organism@G_brasiliensis > pronotal_cervical_sulcus@cer_brasiliensis >> smooth;
+female_organism@G_brasiliensis > pronotal_suprahumeral_sulcus@sul1_brasiliensis >> foveate;
+female_organism@G_brasiliensis > pronotal_suprahumeral_sulcus@sul1_brasiliensis > medial_region !adjacent_to. pronotal_cervical_sulcus@cer_brasiliensis;
+
+
+female_organism@G_brasiliensis > netrion_sulcus !adjacent_to. anterior_rim_of_pronotum;
+female_organism@G_brasiliensis > netrion@brasiliensis >> foveate;
+female_organism@G_brasiliensis > netrion@brasiliensis >> length is_quality_measured_as. measurement_datum@3brasiliensis has_measurement_unit_label. length << pronoto-mesopectal_suture; measurement_datum@3brasiliensis has_measurement_value. 0.67;
+female_organism@G_brasiliensis > posterior_pronotal_sulcus;
+female_organism@G_brasiliensis > ventral_propleural_area >> smooth;
+female_organism@G_brasiliensis > propleural_epicoxal_sulcus >> scalloped;
+female_organism@G_brasiliensis > subalar_pit;
+female_organism@G_brasiliensis > epicoxal_sulcus >> scalloped;
+
+# female_organism@G_brasiliensis > scutoscutellar_sulcus@brasiliensis > medial_region > depression>> diameter |<| diameter >> depression< lateral_region < scutoscutellar_sulcus@brasiliensis;
+female_organism@G_brasiliensis > scutoscutellar_sulcus@brasiliensis > medial_region > depression >> diameter |<| diameter << depression < lateral_region < scutoscutellar_sulcus@brasiliensis;
+
+
+female_organism@G_brasiliensis > S3_felt_field;
+female_organism@G_brasiliensis > (abdominal_tergum_2, abdominal_tergum_3, abdominal_tergum_4, abdominal_sternum_2, abdominal_sternum_3, abdominal_sternum_4) > basal_grooves;
+female_organism@G_brasiliensis > acrosternal_calyx;
+female_organism@G_brasiliensis > acrosternal_calyx >> circular;
+female_organism@G_brasiliensis > acrosternal_calyx >> bilaterally_paired;
+female_organism@G_brasiliensis > (lateral_apodeme@1brasiliensis, lateral_apodeme@2brasiliensis);
+female_organism@G_brasiliensis > lateral_apodeme@1brasiliensis >> left;
+female_organism@G_brasiliensis > lateral_apodeme@2brasiliensis >> right;
+female_organism@G_brasiliensis > lateral_apodeme@1brasiliensis !continuous_with. lateral_apodeme@2brasiliensis;
+female_organism@G_brasiliensis > abdominal_sternum_7 > antero-medial_region > apodeme;
+female_organism@G_brasiliensis > length is_quality_measured_as. measurement_datum@0brasiliensis has_measurement_unit_label. micrometer;
+female_organism@G_brasiliensis > measurement_datum@0brasiliensis has_measurement_value. 2340;
+female_organism@G_brasiliensis > head@brasiliensis >> black;
+female_organism@G_brasiliensis > (interantennal_prominence, seventh_flagellomere, eighth_flagellomere, ninth_flagellomere, tenth_flagellomere) >> brown;
+female_organism@G_brasiliensis > (mouthparts, radicle@brasiliensis, scape@brasiliensis, pedicel, first_flagellomere, second_flagellomere, third_flagellomere, fourth_flagellomere, fifth_flagellomere, sixth_flagellomere) >> yellow;
+female_organism@G_brasiliensis > abdominal_tergum_2 > medial_region >> light_brown;
+female_organism@G_brasiliensis > abdominal_tergum_3 > medial_region >> light_brown;
+female_organism@G_brasiliensis > abdominal_tergum_4 >> ochre;
+female_organism@G_brasiliensis > abdominal_tergum_6 > lateral_region >> ochre;
+female_organism@G_brasiliensis > abdominal_tergum_7 > lateral_region >> ochre;
+female_organism@G_brasiliensis > abdominal_tergum_5 > medial_region@1brasiliensis >> length is_quality_measured_as. measurement_datum@4brasiliensis has_measurement_unit_label. length << abdominal_tergum_5;
+female_organism@G_brasiliensis > measurement_datum@4brasiliensis has_measurement_value. 0.75;
+female_organism@G_brasiliensis > medial_region@1brasiliensis >> brown;
+female_organism@G_brasiliensis > measurement_datum@5brasiliensis has_measurement_value. 0.75;
+female_organism@G_brasiliensis > medial_region@2brasiliensis >> brown;
+female_organism@G_brasiliensis > abdominal_tergum_7 > medial_region@3brasiliensis >> length is_quality_measured_as. measurement_datum@6brasiliensis has_measurement_unit_label. length << abdominal_tergum_7;
+female_organism@G_brasiliensis > measurement_datum@6brasiliensis has_measurement_value. 0.75;
+female_organism@G_brasiliensis > medial_region@3brasiliensis >> brown;
+female_organism@G_brasiliensis > scape@brasiliensis >> length is_quality_measured_as. measurement_datum@7brasiliensis has_measurement_unit_label. length << radicle@brasiliensis; measurement_datum@7brasiliensis has_measurement_value. 4.3;
+female_organism@G_brasiliensis > torular_triangle@brasiliensis > (carina@1brasiliensis, carina@2brasiliensis);
+
+female_organism@G_brasiliensis > carina@bra_car1 >> left;
+female_organism@G_brasiliensis > carina@bra_car2 >> right;
+
+female_organism@G_brasiliensis > carina@bra_car1 !continuous_with. carina@bra_car2;
+female_organism@G_brasiliensis > central_keel >> complete_structure;
+female_organism@G_brasiliensis > upper_face@brasiliensis > anterior_side > horizontal_plane@1brasilieansis >> centered;
+female_organism@G_brasiliensis > torular_triangle@brasiliensis adjacent_to. horizontal_plane@1brasiliensis;
+female_organism@G_brasiliensis > upper_face@brasiliensis !> setiferous_patch >> transverse_orientation;
+female_organism@G_brasiliensis > upper_face@brasiliensis > dorsal_region >> knobbled;
+female_organism@G_brasiliensis > upper_face@brasiliensis > dorsal_side >> convex;
+female_organism@G_brasiliensis > head@brasiliensis > anterior_side >> triangular;
+female_organism@G_brasiliensis > head@brasiliensis > anterior_side > maximum_width dorsal_to. horizontal_plane@1 < head@brasiliensis;
+female_organism@G_brasiliensis > horizontal_plane@2brasiliensis >> centered;
+female_organism@G_brasiliensis > occipital_carina > dorso-medial_region >> scalloped;
+female_organism@G_brasiliensis > compound_eye > horizontal_plane@2brasiliensis >> centered;
+female_organism@G_brasiliensis > facial_striae !> dorsal_region adjacent_to. horizontal_plane@2brasiliensis;
+female_organism@G_brasiliensis > vertex@verbrasiliensis >> scalloped;
+female_organism@G_brasiliensis > vertex@verbrasiliensis >> punctate;
+female_organism@G_brasiliensis > notaulus > anterior_margin anterior_to. transscutal_line;
+female_organism@G_brasiliensis > dorsal_metapleural_area >> glabrous;
+female_organism@G_brasiliensis > metapectal-propodeal_complex > antero-medial_region !> pit >> bilaterally_paired;
+female_organism@G_brasiliensis > lateral_propodeal_area@brasiliensis > dorsal_region > carina |=| 2;
+female_organism@G_brasiliensis > lateral_propodeal_area@brasiliensis > medial_region >> glabrous;
+female_organism@G_brasiliensis > posterior_propodeal_projection@brasiliensis >> length is_quality_measured_as. measurement_datum@8brasiliensis has_measurement_unit_label. maximum_width << posterior_propodeal_projection@brasiliensis;
+female_organism@G_brasiliensis > measurement_datum@8brasiliensis has_measurement_value. 0.9;
+female_organism@G_brasiliensis > abdominal_tergum_4@brasiliensis >> rugose;
+female_organism@G_brasiliensis > abdominal_tergum_4@brasiliensis > posterior_region@brasiliensis >> sculpted_surface;
+female_organism@G_brasiliensis > posterior_region@brasiliensis >> length is_quality_measured_as. measurement_datum@9brasiliensis has_measurement_unit_label. length << abdominal_tergum_4@brasiliensis;
+female_organism@G_brasiliensis > measurement_datum@9brasiliensis has_measurement_value. 0.8;
+]
+]
+
+#
+# OTU=[
+# OTU_model=
+# [
+#   TU@CNCHYMEN_135290
+#   [
+#   "to_Ophu_List"="has_phenotype", "rdfs:label"="Gryonoides_flaviclavus_flaviclavus"
+#   ]
+#   denotes. female_organism@G_flaviclavus_flaviclavus ["rdfs:label"="Gryonoides_flaviclavus_flaviclavus"
+#   ];
+#   TU@CNCHYMEN_135290 denotes. Gryonoides;
+# ]
+#
+# Ophu_List=[
+# #female_organism@G_flaviclavus_flaviclavus >
+# female_organism@G_flaviclavus_flaviclavus > radicle@flaviclavus_flaviclavus >> yellow;
+# female_organism@G_flaviclavus_flaviclavus > frontal_patch;
+# female_organism@G_flaviclavus_flaviclavus > tenth_flagellomere > multiporous_gustatory_sensillum |=| 1;
+# female_organism@G_flaviclavus_flaviclavus > fifth_flagellomere !> multiporous_gustatory_sensillum;
+# female_organism@G_flaviclavus_flaviclavus > radicle@flaviclavus_flaviclavus >> elongated;
+# female_organism@G_flaviclavus_flaviclavus > radicle@flaviclavus_flaviclavus >> length is_quality_measured_as. measurement_datum@2flaviflavi has_measurement_unit_label. minimum_width << radicle;
+# female_organism@G_flaviclavus_flaviclavus > measurement_datum@2flaviflavi has_measurement_value. 5.2;
+# female_organism@G_flaviclavus_flaviclavus > mandible@flaviclavus_flaviclavus > tooth |=| 3;
+# female_organism@G_flaviclavus_flaviclavus > dorsal_tooth >> length |>| length << lower_tooth;
+# female_organism@G_flaviclavus_flaviclavus > lower_tooth >> length |>| length << medial_tooth_of_the_mandible;
+# female_organism@G_flaviclavus_flaviclavus > genal_patch;
+# female_organism@G_flaviclavus_flaviclavus > clypeus >> length is_quality_measured_as. measurement_datum@clyflaviflavi has_measurement_unit_label. minimum_width << mandible@flaviclavus_flaviclavus;
+# female_organism@G_flaviclavus_flaviclavus > measurement_datum@clybrasiliensi has_measurement_value. 3.1;
+# female_organism@G_flaviclavus_flaviclavus > hyperoccipital_carina;
+# female_organism@G_flaviclavus_flaviclavus > vertex_patch;
+# female_organism@G_flaviclavus_flaviclavus > anterior_process_of_the_pronotum >> decreased_size;
+# female_organism@G_flaviclavus_flaviclavus > epomial_carina;
+# female_organism@G_flaviclavus_flaviclavus > pronotal_cervical_sulcus@flaviclavus_flaviclavus >> smooth;
+# female_organism@G_flaviclavus_flaviclavus > pronotal_suprahumeral_sulcus@flaviclavus_flaviclavus >> foveate;
+# female_organism@G_flaviclavus_flaviclavus > pronotal_suprahumeral_sulcus@flaviclavus_flaviclavus > medial_region !adjacent_to. pronotal_cervical_sulcus@flaviclavus_flaviclavus;
+# female_organism@G_flaviclavus_flaviclavus > netrion_sulcus !adjacent_to. anterior_rim_of_pronotum;
+# female_organism@G_flaviclavus_flaviclavus > netrion@flaviclavus_flaviclavus >> foveate;
+# female_organism@G_flaviclavus_flaviclavus > netrion@flaviclavus_flaviclavus >> length is_quality_measured_as. measurement_datum@3flaviflavi has_measurement_unit_label. length << pronoto-mesopectal_suture; measurement_datum@3flaviflavi has_measurement_value. 0.67;
+# female_organism@G_flaviclavus_flaviclavus > posterior_pronotal_sulcus;
+#
+# female_organism@G_flaviclavus_flaviclavus > ventral_propleural_area >> smooth;
+# female_organism@G_flaviclavus_flaviclavus > propleural_epicoxal_sulcus >> scalloped;
+# female_organism@G_flaviclavus_flaviclavus > subalar_pit;
+# female_organism@G_flaviclavus_flaviclavus > epicoxal_sulcus >> scalloped;
+#
+# female_organism@G_flaviclavus_flaviclavus > scutoscutellar_sulcus@flaviclavus_flaviclavus > medial_region > depression >> diameter |<| diameter >> depression < lateral_region < scutoscutellar_sulcus@flaviclavus_flaviclavus;
+# female_organism@G_flaviclavus_flaviclavus > anteromesoscutum > medial_region >> areolate;
+# female_organism@G_flaviclavus_flaviclavus > notaulus > anterior_margin anterior_to. transscutal_line;
+#
+# female_organism@G_flaviclavus_flaviclavus > mesoscutal_humeral_sulcus >> scalloped;
+# female_organism@G_flaviclavus_flaviclavus > mesoscutal_suprahumeral_sulcus@flaviclavus_flaviclavus > antero-medial_region adjacent_to. anterior_region < notaulus;
+# female_organism@G_flaviclavus_flaviclavus > mesoscutal_suprahumeral_sulcus@flaviclavus_flaviclavus >> scalloped;
+# female_organism@G_flaviclavus_flaviclavus > scutoscutellar_sulcus@flaviclavus_flaviclavus > medial_region >> smooth;
+# female_organism@G_flaviclavus_flaviclavus > scutoscutellar_sulcus@flaviclavus_flaviclavus > lateral_region >> foveate;
+# female_organism@G_flaviclavus_flaviclavus > scutoscutellar_sulcus@flaviclavus_flaviclavus > lateral_region adjacent_to. axillula@flaviclavus_flaviclavus;
+# female_organism@G_flaviclavus_flaviclavus > mesoscutellum > dorsal_side > posterior_margin >> concave;
+# female_organism@G_flaviclavus_flaviclavus > female_organism@G_flaviclavus_flaviclavus > mesoscutellum !> posteromedian_process_of_the_mesoscutellum;
+# female_organism@G_flaviclavus_flaviclavus > transaxillar_carina;
+# female_organism@G_flaviclavus_flaviclavus > posterior_mesoscutellar_sulcus@flaviclavus_flaviclavus adjacent_to. axillula@flaviclavus_flaviclavus;
+# female_organism@G_flaviclavus_flaviclavus > posterior_mesoscutellar_sulcus@flaviclavus_flaviclavus >> foveate ;
+# female_organism@G_flaviclavus_flaviclavus > mesepisternum >> areolate;
+# female_organism@G_flaviclavus_flaviclavus > mesopleural_pit;
+# female_organism@G_flaviclavus_flaviclavus > mesopleural_carina;
+# female_organism@G_flaviclavus_flaviclavus !> postacetabular_patch;
+# female_organism@G_flaviclavus_flaviclavus > acropleural_sulcus >> elongated;
+# female_organism@G_flaviclavus_flaviclavus > metanotal_spine@flaviclavus_flaviclavus !> lamella >> translucent;
+# female_organism@G_flaviclavus_flaviclavus > metascutellum > proximal_region >> striated;
+# female_organism@G_flaviclavus_flaviclavus > metanotal_spine@flaviclavus_flaviclavus >> length |>| length << proximal_region@flaviflavi < mesoscutellum;
+# female_organism@G_flaviclavus_flaviclavus > proximal_region@flaviflavi >> striated;
+# female_organism@G_flaviclavus_flaviclavus > metanotal_trough >> foveate;
+# female_organism@G_flaviclavus_flaviclavus > metanotal_spine@flaviclavus_flaviclavus > dorsal_side >> pointed;
+# female_organism@G_flaviclavus_flaviclavus > metapleural_pit;
+# female_organism@G_flaviclavus_flaviclavus > metapleural_sulcus >> smooth;
+# female_organism@G_flaviclavus_flaviclavus > metapleural_sulcus;
+# female_organism@G_flaviclavus_flaviclavus > ventral_metapleural_area >> transversely_striated;
+# female_organism@G_flaviclavus_flaviclavus > metasomal_depression !>> setose;
+# female_organism@G_flaviclavus_flaviclavus > lateral_propodeal_carina;
+# female_organism@G_flaviclavus_flaviclavus > lateral_propodeal_carina adjacent_to. posterior_propodeal_projection@flaviflavi;
+# female_organism@G_flaviclavus_flaviclavus > lateral_propodeal_carina >> Y-shaped;
+# female_organism@G_flaviclavus_flaviclavus > posterior_propodeal_projection@flaviflavi;
+# female_organism@G_flaviclavus_flaviclavus > hind_wing >> maximum_width is_quality_measured_as. measurement_datum@3flaviflavi has_measurement_unit_label. length << marginal_cilia;
+# female_organism@G_flaviclavus_flaviclavus > measurement_datum@3flaviflavi has_measurement_value. 2.1;
+# female_organism@G_flaviclavus_flaviclavus > abdominal_tergum_2 > lateral_side > dorsal_margin >> convex;
+# female_organism@G_flaviclavus_flaviclavus > abdominal_tergum_2 > lateral_region > seta |=| 5;
+#
+# female_organism@G_flaviclavus_flaviclavus > felt_field;
+# female_organism@G_flaviclavus_flaviclavus > abdominal_tergum_3 > lateral_region > setiferous_patch;
+# female_organism@G_flaviclavus_flaviclavus > apical_setae_of_T3 !>> length |>| length << seta@1flaviflavi < abdominal_tergum_4;
+# female_organism@G_flaviclavus_flaviclavus > seta@1flaviflavi !> apical_setae_of_T3;
+# female_organism@G_flaviclavus_flaviclavus > abdominal_tergum_4 > postero-dorsal_region > setiferous_patch;
+# female_organism@G_flaviclavus_flaviclavus !> S3_felt_field;
+# female_organism@G_flaviclavus_flaviclavus > (abdominal_tergum_2, abdominal_tergum_3, abdominal_tergum_4, abdominal_sternum_2, abdominal_sternum_3, abdominal_sternum_4) > basal_grooves;
+# female_organism@G_flaviclavus_flaviclavus > acrosternal_calyx;
+# female_organism@G_flaviclavus_flaviclavus > acrosternal_calyx >> circular;
+# female_organism@G_flaviclavus_flaviclavus > acrosternal_calyx >> bilaterally_paired;
+# female_organism@G_flaviclavus_flaviclavus > (lateral_apodeme@1flaviflavi, lateral_apodeme@2flaviflavi);
+# female_organism@G_flaviclavus_flaviclavus > female_organism@G_flaviclavus_flaviclavus > lateral_apodeme@1flaviflavi >> left;
+# female_organism@G_flaviclavus_flaviclavus > lateral_apodeme@2flaviflavi >> right;
+# female_organism@G_flaviclavus_flaviclavus > lateral_apodeme@1flaviflavi !continuous_with. lateral_apodeme@2flaviflavi;
+# female_organism@G_flaviclavus_flaviclavus > abdominal_sternum_7 > antero-medial_region > apodeme;
+# female_organism@G_flaviclavus_flaviclavus > length is_quality_measured_as. measurement_datum@0flaviclavus has_measurement_unit_label. micrometer;
+# female_organism@G_flaviclavus_flaviclavus > measurement_datum@0flaviclavus has_measurement_value. 2510;
+# female_organism@G_flaviclavus_flaviclavus > mesosoma >> orange;
+# female_organism@G_flaviclavus_flaviclavus > metasoma >> dark_brown;
+# female_organism@G_flaviclavus_flaviclavus > laterotergite >> light_brown;
+# female_organism@G_flaviclavus_flaviclavus > torular_triangle@flaviclavus_flaviclavus > (carina@1flaviclavus, carina@2flaviclavus);
+# female_organism@G_flaviclavus_flaviclavus > carina@1flaviclavus >> left;
+# female_organism@G_flaviclavus_flaviclavus > carina@2flaviclavus >> right;
+#
+# female_organism@G_flaviclavus_flaviclavus > carina@1flaviclavus !continuous_with. carina@2flaviclavus;
+# female_organism@G_flaviclavus_flaviclavus > upper_face@flaviclavus_flaviclavus > anterior_side > horizontal_plane@1flaviflavi >> centered;
+# female_organism@G_flaviclavus_flaviclavus > torular_triangle@flaviclavus_flaviclavus adjacent_to. horizontal_plane@1flaviflavi;
+# female_organism@G_flaviclavus_flaviclavus > upper_face@flaviclavus_flaviclavus !> setiferous_patch >> transverse_orientation;
+# female_organism@G_flaviclavus_flaviclavus > upper_face@flaviclavus_flaviclavus > dorsal_region >> knobbled;
+# female_organism@G_flaviclavus_flaviclavus > upper_face@flaviclavus_flaviclavus > patch@1flaviflavi !>> setose;
+# female_organism@G_flaviclavus_flaviclavus > patch@1flaviflavi >> bilaterally_paired;
+# female_organism@G_flaviclavus_flaviclavus > patch@1flaviflavi lateral_to. dorsal_region < torular_triangle@flaviclavus_flaviclavus;
+# female_organism@G_flaviclavus_flaviclavus > patch@1flaviflavi >> maximum_width is_quality_measured_as. measurement_datum@1flaviflavi has_measurement_unit_label. ocellar_diameter;
+# female_organism@G_flaviclavus_flaviclavus > patch@1flaviflavi has_measurement_value. 2.6;
+# female_organism@G_flaviclavus_flaviclavus > upper_face@flaviclavus_flaviclavus > dorsal_side >> convex;
+#
+# female_organism@G_flaviclavus_flaviclavus > central_keel !continuous_with. torular_triangle@flaviclavus_flaviclavus;
+# female_organism@G_flaviclavus_flaviclavus > head@flaviflavi > anterior_side >> rounded;
+# female_organism@G_flaviclavus_flaviclavus > head@flaviflavi > anterior_side > maximum_width level_with horizontal_plane@1flaviflavi < head@flaviflavi;
+# female_organism@G_flaviclavus_flaviclavus > horizontal_plane@1flaviflavi >> centered;
+# female_organism@G_flaviclavus_flaviclavus > occipital_carina > dorso-medial_region !>> scalloped;
+# female_organism@G_flaviclavus_flaviclavus > facial_striae > dorsal_region ventral_to. horizontal_plane@2flaviflavi >> centered;
+# female_organism@G_flaviclavus_flaviclavus > horizontal_plane@2flaviflavi << compound_eye;
+# female_organism@G_flaviclavus_flaviclavus > vertex >> smooth;
+# female_organism@G_flaviclavus_flaviclavus > notaulus > anterior_region anterior_to. transscutal_line;
+# female_organism@G_flaviclavus_flaviclavus > dorsal_metapleural_area >> glabrous;
+# female_organism@G_flaviclavus_flaviclavus > metapectal-propodeal_complex > antero-medial_region !> pit >> bilaterally_paired;
+# female_organism@G_flaviclavus_flaviclavus > lateral_propodeal_area@flaviclavus_flaviclavus > carina |=| 2;
+# female_organism@G_flaviclavus_flaviclavus > lateral_propodeal_area@flaviclavus_flaviclavus > dorsal_region > carina |=| 2;
+# female_organism@G_flaviclavus_flaviclavus > lateral_propodeal_area@flaviclavus_flaviclavus > medial_region >> glabrous;
+# female_organism@G_flaviclavus_flaviclavus > posterior_propodeal_projection@flaviflavi >> length is_quality_measured_as. measurement_datum@8flaviflavi has_measurement_unit_label. maximum_width << posterior_propodeal_projection@flaviflavi;
+# female_organism@G_flaviclavus_flaviclavus > measurement_datum@8flaviflavi  has_measurement_value. 2.3;
+# female_organism@G_flaviclavus_flaviclavus > abdominal_tergum_4@flaviflavi !>> rugose;
+# female_organism@G_flaviclavus_flaviclavus > abdominal_tergum_4@flaviflavi > posterior_region@flaviflavi >> sculpted_surface;
+# female_organism@G_flaviclavus_flaviclavus > posterior_region@flaviflavi >> length is_quality_measured_as. measurement_datum@9flaviflavi has_measurement_unit_label. length << abdominal_tergum_4@flaviflavi;
+# female_organism@G_flaviclavus_flaviclavus > measurement_datum@9flaviflavi has_measurement_value. 0.8;
+# ]
+# ]

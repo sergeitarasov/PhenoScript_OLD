@@ -1,0 +1,19 @@
+'.source.r':
+
+  'BSPO_0000105':
+   'prefix': 'ipsilateral_to[iri="BSPO_0000105"]'
+   'body': 'ipsilateral_to.[iri="BSPO_0000105"]'
+   'description': 'On the same side as. For example, the left arm is ipsilateral to the left leg.'
+   'leftLabelHTML': '<span style="color:#64B5F6">P</span>'
+
+  'RO_0004022':
+   'prefix': 'disease_has_basis_in_feature'
+   'body': 'disease_has_basis_in_feature.'
+   'description': 'A relation that holds between the disease and a feature (a phenotype or other disease) where the physical basis of the disease is the feature.'
+   'leftLabelHTML': '<span style="color:#64B5F6">P</span>'
+
+  'BSPO_0015010':
+   'prefix': 'immediately_distal_to'
+   'body': 'immediately_distal_to.'
+   'description': 'x immediately distal to y iff x distal to y and x is contiguous with y.'
+   'leftLabelHTML': '<span style="color:#64B5F6">P</span>'

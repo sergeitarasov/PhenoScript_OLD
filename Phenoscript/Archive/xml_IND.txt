@@ -1,0 +1,34 @@
+<rdf:RDF xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <owl:NamedIndividual rdf:about="1">
+    <rdfs:label xml:lang="en">1</rdfs:label>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/AISM_0000003"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="o1">
+    <rdfs:label xml:lang="en">o1</rdfs:label>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="o2">
+    <rdfs:label xml:lang="en">o2</rdfs:label>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="iri3">
+    <rdfs:label xml:lang="en">iri3</rdfs:label>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/AISM_0004117"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="1">
+    <rdfs:label xml:lang="en">1</rdfs:label>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/AISM_0000003"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="2">
+    <rdfs:label xml:lang="en">2</rdfs:label>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/AISM_0000003"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="3">
+    <rdfs:label xml:lang="en">3</rdfs:label>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/AISM_0000003"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="iri12">
+    <rdfs:label xml:lang="en">iri12</rdfs:label>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/AISM_0000029"/>
+  </owl:NamedIndividual>
+</rdf:RDF>

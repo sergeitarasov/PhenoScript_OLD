@@ -1,0 +1,104 @@
+<Phenoscript xmlns:phs="https://github.com/sergeitarasov/PhenoScript">
+	<phs:otu_objects_list>
+		<phs:otu_object>
+			<phs:otu_properties>
+				<phs:ophu_statement>
+					<phs:triple_node>
+						<phs:node phs:iri="http://purl.obolibrary.org/obo/OBI_0100026" phs:node_id="https://orcid.org/0000-0001-5237-2330/o1" phs:node_name="organism" phs:triple_pos="1">
+							<phs:node_property phs:value="organism">node_name</phs:node_property>
+						</phs:node>
+						<phs:edge phs:iri="http://purl.obolibrary.org/obo/IAO_0000219" phs:negative_prop="False" phs:triple_pos="2">denotes</phs:edge>
+						<phs:node phs:iri="http://purl.obolibrary.org/obo/OBI_0100026" phs:node_id="https://orcid.org/0000-0001-5237-2330/o2" phs:node_name="organism" phs:triple_pos="3">
+							<phs:node_property phs:value="organism">node_name</phs:node_property>
+						</phs:node>
+					</phs:triple_node>
+				</phs:ophu_statement>
+			</phs:otu_properties>
+			<phs:ophu_list>
+				<phs:ophu_statement>
+					<phs:triple_node>
+						<phs:node phs:iri="http://purl.obolibrary.org/obo/AISM_0004117" phs:node_id="https://orcid.org/0000-0001-5237-2330/_auto_3" phs:node_name="abdominal_tergite_IX" phs:triple_pos="1">
+							<phs:node_property phs:value="abdominal_tergite_IX">node_name</phs:node_property>
+						</phs:node>
+						<phs:edge phs:iri="http://purl.obolibrary.org/obo/AISM_0000519" phs:negative_prop="False" phs:triple_pos="2">encircles_via_conjunctiva</phs:edge>
+						<phs:node phs:iri="http://purl.obolibrary.org/obo/AISM_0000003" phs:node_id="https://orcid.org/0000-0001-5237-2330/1" phs:node_name="sclerite" phs:triple_pos="3">
+							<phs:node_property phs:value="sclerite">node_name</phs:node_property>
+						</phs:node>
+					</phs:triple_node>
+					<phs:triple_node>
+						<phs:node phs:iri="http://purl.obolibrary.org/obo/AISM_0000003" phs:node_id="https://orcid.org/0000-0001-5237-2330/1" phs:node_name="sclerite" phs:triple_pos="1">
+							<phs:node_property phs:value="sclerite">node_name</phs:node_property>
+						</phs:node>
+						<phs:edge phs:iri="http://purl.obolibrary.org/obo/AISM_0000519" phs:negative_prop="False" phs:triple_pos="2">encircles_via_conjunctiva</phs:edge>
+						<phs:node phs:iri="http://purl.obolibrary.org/obo/AISM_0000003" phs:node_id="https://orcid.org/0000-0001-5237-2330/2" phs:node_name="sclerite" phs:triple_pos="3">
+							<phs:node_property phs:value="sclerite">node_name</phs:node_property>
+						</phs:node>
+					</phs:triple_node>
+					<phs:triple_node>
+						<phs:node phs:iri="http://purl.obolibrary.org/obo/AISM_0000003" phs:node_id="https://orcid.org/0000-0001-5237-2330/2" phs:node_name="sclerite" phs:triple_pos="1">
+							<phs:node_property phs:value="sclerite">node_name</phs:node_property>
+						</phs:node>
+						<phs:edge phs:iri="http://purl.obolibrary.org/obo/AISM_0000519" phs:negative_prop="False" phs:triple_pos="2">encircles_via_conjunctiva</phs:edge>
+						<phs:node phs:iri="http://purl.obolibrary.org/obo/AISM_0000003" phs:node_id="https://orcid.org/0000-0001-5237-2330/3" phs:node_name="sclerite" phs:triple_pos="3">
+							<phs:node_property phs:value="sclerite">node_name</phs:node_property>
+						</phs:node>
+					</phs:triple_node>
+				</phs:ophu_statement>
+				<phs:ophu_statement>
+					<phs:triple_node>
+						<phs:list_node phs:triple_pos="1">
+							<phs:node phs:iri="http://purl.obolibrary.org/obo/AISM_0000003" phs:node_id="https://orcid.org/0000-0001-5237-2330/1" phs:node_name="sclerite" phs:triple_pos="NO">
+								<phs:node_property phs:value="sclerite">node_name</phs:node_property>
+							</phs:node>
+							<phs:node phs:iri="http://purl.obolibrary.org/obo/AISM_0000003" phs:node_id="https://orcid.org/0000-0001-5237-2330/2" phs:node_name="sclerite" phs:triple_pos="NO">
+								<phs:node_property phs:value="sclerite">node_name</phs:node_property>
+							</phs:node>
+							<phs:node phs:iri="http://purl.obolibrary.org/obo/AISM_0000003" phs:node_id="https://orcid.org/0000-0001-5237-2330/3" phs:node_name="sclerite" phs:triple_pos="NO">
+								<phs:node_property phs:value="sclerite">node_name</phs:node_property>
+							</phs:node>
+						</phs:list_node>
+						<phs:edge phs:iri="http://purl.obolibrary.org/obo/BFO_0000050" phs:negative_prop="False" phs:triple_pos="2">part_of</phs:edge>
+						<phs:node phs:iri="http://purl.obolibrary.org/obo/AISM_0000029" phs:node_id="https://orcid.org/0000-0001-5237-2330/_auto_12" phs:node_name="appendage" phs:triple_pos="3">
+							<phs:node_property phs:value="appendage">node_name</phs:node_property>
+						</phs:node>
+					</phs:triple_node>
+				</phs:ophu_statement>
+				<phs:ophu_statement>
+					<phs:triple_node>
+						<phs:node phs:iri="http://purl.obolibrary.org/obo/AISM_0000003" phs:node_id="https://orcid.org/0000-0001-5237-2330/1" phs:node_name="sclerite" phs:triple_pos="1">
+							<phs:node_property phs:value="sclerite">node_name</phs:node_property>
+						</phs:node>
+						<phs:edge phs:iri="http://purl.obolibrary.org/obo/BFO_0000051" phs:negative_prop="False" phs:triple_pos="2">has_part</phs:edge>
+						<phs:list_node phs:triple_pos="3">
+							<phs:node phs:iri="http://purl.obolibrary.org/obo/AISM_0000003" phs:node_id="https://orcid.org/0000-0001-5237-2330/_auto_14" phs:node_name="sclerite" phs:triple_pos="NO">
+								<phs:node_property phs:value="sclerite">node_name</phs:node_property>
+							</phs:node>
+							<phs:node phs:iri="http://purl.obolibrary.org/obo/AISM_0000003" phs:node_id="https://orcid.org/0000-0001-5237-2330/_auto_15" phs:node_name="sclerite" phs:triple_pos="NO">
+								<phs:node_property phs:value="sclerite">node_name</phs:node_property>
+							</phs:node>
+						</phs:list_node>
+					</phs:triple_node>
+				</phs:ophu_statement>
+				<phs:ophu_statement>
+					<phs:triple_node>
+						<phs:node phs:iri="http://purl.obolibrary.org/obo/AISM_0000003" phs:node_id="https://orcid.org/0000-0001-5237-2330/1" phs:node_name="sclerite" phs:triple_pos="1">
+							<phs:node_property phs:value="sclerite">node_name</phs:node_property>
+						</phs:node>
+						<phs:edge phs:iri="http://purl.obolibrary.org/obo/BFO_0000051" phs:negative_prop="False" phs:triple_pos="2">has_part</phs:edge>
+						<phs:nested_node phs:triple_pos="3">
+							<phs:triple_node>
+								<phs:node phs:iri="http://purl.obolibrary.org/obo/AISM_0000003" phs:node_id="https://orcid.org/0000-0001-5237-2330/_auto_17" phs:node_name="sclerite" phs:triple_pos="1">
+									<phs:node_property phs:value="sclerite">node_name</phs:node_property>
+								</phs:node>
+								<phs:edge phs:iri="http://purl.obolibrary.org/obo/AISM_0000519" phs:negative_prop="False" phs:triple_pos="2">encircles_via_conjunctiva</phs:edge>
+								<phs:node phs:iri="http://purl.obolibrary.org/obo/AISM_0000003" phs:node_id="https://orcid.org/0000-0001-5237-2330/_auto_18" phs:node_name="sclerite" phs:triple_pos="3">
+									<phs:node_property phs:value="sclerite">node_name</phs:node_property>
+								</phs:node>
+							</phs:triple_node>
+						</phs:nested_node>
+					</phs:triple_node>
+				</phs:ophu_statement>
+			</phs:ophu_list>
+		</phs:otu_object>
+	</phs:otu_objects_list>
+</Phenoscript>
