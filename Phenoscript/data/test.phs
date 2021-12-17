@@ -13,6 +13,8 @@
 # 2.  OTU, OTU_DATA, OPHU_LIST are ddefined by {}
 # 3. Personalozation (tagging) was with '@', now with ':''
 # 4. Edges (object properties) was 'edge.', now '.edge'
+# 5. Recommendations: Consider inserting a comment '# Gen. Sp.' after 'OTU =', for example 'OTU={ #G ryonoides_brasiliensis'.
+#       This will help finding errors when parsing file.
 
 OTU={ #G ryonoides_brasiliensis
 
