@@ -7,6 +7,12 @@
 # '|<|' 'decreased_in_magnitude_relative_to.'
 # '|=|' 'has_count:'
 
+# This is a new PhenoScript Syntax
+# Changes:
+# 1. OTU, OTU_DATA, OPHU_LIST are all capitals
+# 2.  OTU, OTU_DATA, OPHU_LIST are ddefined by {}
+# 3. Personalozation (tagging) was with '@', now with ':''
+# 4. Edges (object properties) was 'edge.', now '.edge'
 
 OTU={ #G ryonoides_brasiliensis
 
