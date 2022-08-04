@@ -30,11 +30,23 @@ unique_grades = list(set(g.text for g in grades))
 # bb.sort()
 # print(*bb, sep='\n')
 #-----------------
-allN=root1.findall('.//{https://github.com/sergeitarasov/PhenoScript}node')
+allN=root1.findall('.//phs:node', ns_xml)
+len(allN)
+
+#xml_find_all(PS, './/phs:nested_node[@phs:triple_pos="1"] | //phs:list_node[@phs:triple_pos="1"]')
+
+allN=root1.findall('.//phs:node[@phs:fromNegativeEdge="False"]', ns_xml)
+len(allN)
+
+allN[1].get('{https://github.com/sergeitarasov/PhenoScript}node_id')
+allN[1].get('{https://github.com/sergeitarasov/PhenoScript}node_id')
+allN[1].attrib
 
 allN_node_id=[]
 for n in allN:
-  allN_node_id.append(n.get('{https://github.com/sergeitarasov/PhenoScript}node_id'))
+  allN_node_id.append(n.get(str_ns_xml+'node_id'))
+  print(n.get(str_ns_xml+'node_id'))
+
 
 len(allN_node_id)
 un_id=list(set(allN_node_id))
@@ -42,5 +54,14 @@ len(un_id)
 
 i=un_id[0]
 root1.findall(".//{https://github.com/sergeitarasov/PhenoScript}node[@{https://github.com/sergeitarasov/PhenoScript}node_id='%s']"%i)
+
+#-----------
+ns_xml = {'phs': 'https://github.com/sergeitarasov/PhenoScript'}
+str_ns_xml='{https://github.com/sergeitarasov/PhenoScript}'
+
+for neighbor in root1.iter('{https://github.com/sergeitarasov/PhenoScript}fromNegativeEdge'):
+  #print(neighbor.attrib)
+  print(neighbor)
+
 
 

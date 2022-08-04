@@ -4624,16 +4624,16 @@ For example, protein A (transcription factor) indirectly decreases by repression
    'description': 'A quality inhering in a bearer by virtue of the bearer\'s bodily structure that has protruded through an abnormal opening in the wall that contains it.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'PATO_0040015':
-   'prefix': 'trough_shaped'
-   'body': 'trough_shaped'
-   'description': 'A concave 3-D shape quality inhering in a bearer by virtue of the bearer\'s shape resembling that of a trough, being narrow, long, and boxlike in shape.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'PATO_0001499':
    'prefix': 'spherical'
    'body': 'spherical'
    'description': 'A spheroid quality inhering in a bearer by virtue of the bearer\'s resembling a ball (a sphere whose equatorial diameter is equal to the polar diameter).'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'PATO_0040015':
+   'prefix': 'trough_shaped'
+   'body': 'trough_shaped'
+   'description': 'A concave 3-D shape quality inhering in a bearer by virtue of the bearer\'s shape resembling that of a trough, being narrow, long, and boxlike in shape.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'HAO_0001434':
@@ -7264,16 +7264,16 @@ For example, protein A (transcription factor) indirectly decreases by repression
    'description': 'The spiracle that is located on the border of the pronotum and mesopleuron.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'HAO_0002506':
-   'prefix': 'supramesopleural_sclerite'
-   'body': 'supramesopleural_sclerite'
-   'description': 'The sclerite that is located anterodorsally on the metapectus, posterior to the postalar process.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'PATO_0000755':
    'prefix': 'obsolete_vocalization_value'
    'body': 'obsolete_vocalization_value'
    'description': ''
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'HAO_0002506':
+   'prefix': 'supramesopleural_sclerite'
+   'body': 'supramesopleural_sclerite'
+   'description': 'The sclerite that is located anterodorsally on the metapectus, posterior to the postalar process.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0001440':
@@ -9180,12 +9180,6 @@ clustering algorithm.'
    'description': 'A structural quality inhering in the bearer by virtue of the bearer consisting of multiple structures lacking any physical connection to each other.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'PATO_0002091':
-   'prefix': 'subacute'
-   'body': 'subacute'
-   'description': 'A quality of a single process inhering in a bearer by virtue of the bearer\'s having an onset and time course between acute and chronic.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'HAO_0002260':
    'prefix': 'anterodistal_notch_of_the_fore_wing'
    'body': 'anterodistal_notch_of_the_fore_wing'
@@ -9208,6 +9202,12 @@ clustering algorithm.'
    'prefix': 'duplicated'
    'body': 'duplicated'
    'description': 'A quality inhering in a bearer by virtue of the bearer\'s being present in two copies.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'PATO_0002091':
+   'prefix': 'subacute'
+   'body': 'subacute'
+   'description': 'A quality of a single process inhering in a bearer by virtue of the bearer\'s having an onset and time course between acute and chronic.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'HAO_0001181':
@@ -12840,16 +12840,16 @@ clustering algorithm.'
    'description': ''
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'HAO_0000081':
-   'prefix': 'acetabular_groove'
-   'body': 'acetabular_groove'
-   'description': 'The impression that extends from the mandibular acetabulum to the preapical tooth.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'PATO_0002448':
    'prefix': 'oriented_towards'
    'body': 'oriented_towards'
    'description': 'A quality inhering in a bearer by virtue of the bearer\'s being aligned or positioned towards another entity.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'HAO_0000081':
+   'prefix': 'acetabular_groove'
+   'body': 'acetabular_groove'
+   'description': 'The impression that extends from the mandibular acetabulum to the preapical tooth.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'HAO_0000721':
@@ -17616,16 +17616,16 @@ clustering algorithm.'
    'description': 'The depression that is dorsomedian and is located on the pronotum.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'HAO_0000731':
-   'prefix': 'pleurostomal_condyle'
-   'body': 'pleurostomal_condyle'
-   'description': 'The condyle that is located on the anterior (dorsal) margin of the pleurostoma and inserts into the mandibular acetabulum.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'PATO_0000098':
    'prefix': 'obsolete_insecticide_sensitivity'
    'body': 'obsolete_insecticide_sensitivity'
    'description': ''
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'HAO_0000731':
+   'prefix': 'pleurostomal_condyle'
+   'body': 'pleurostomal_condyle'
+   'description': 'The condyle that is located on the anterior (dorsal) margin of the pleurostoma and inserts into the mandibular acetabulum.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0000738':
@@ -21116,16 +21116,16 @@ two-dimensional map.'
    'description': 'The sclerite of the first valvifer that is located dorsally of the transvalviferal conjunctiva.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'PATO_0001500':
-   'prefix': 'tapered'
-   'body': 'tapered'
-   'description': 'A shape quality inhering in a bearer by virtue of the bearer\'s being gradually narrower or thinner toward one end.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'HAO_0000876':
    'prefix': 'proximal_gonostipo-parossiculal_muscle'
    'body': 'proximal_gonostipo-parossiculal_muscle'
    'description': 'The gonostyle-parossiculal muscle that arises proximally from the lateral part of the gonostipes and inserts on the proximal part of the parossiculus.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'PATO_0001500':
+   'prefix': 'tapered'
+   'body': 'tapered'
+   'description': 'A shape quality inhering in a bearer by virtue of the bearer\'s being gradually narrower or thinner toward one end.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'HAO_0001806':
@@ -21956,12 +21956,6 @@ two-dimensional map.'
    'description': 'An affinity inhering in a tissue constituent by virtue of the bearer exhibiting a molecular interaction for eosin dye.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'PATO_0040002':
-   'prefix': 'originates_from'
-   'body': 'originates_from'
-   'description': 'A positional quality inhering in a bearer by virtue of some aspect of that bearer beginning from a position on another entity.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'HAO_0002273':
    'prefix': 'proximodistal_anatomical_line'
    'body': 'proximodistal_anatomical_line'
@@ -21978,6 +21972,12 @@ two-dimensional map.'
    'prefix': 'lobed'
    'body': 'lobed'
    'description': 'A shape quality inhering in a bearer by virtue of the bearer\'s being partly divided into a determinate number of regions.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'PATO_0040002':
+   'prefix': 'originates_from'
+   'body': 'originates_from'
+   'description': 'A positional quality inhering in a bearer by virtue of some aspect of that bearer beginning from a position on another entity.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0000376':
@@ -30659,16 +30659,16 @@ Example: The ISO document specifying what encompasses an XML document; The instr
    'description': 'The carina that delimits laterally the metepisternal depression.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'HAO_0001373':
-   'prefix': 'median_metapleuro-metanotal_muscle'
-   'body': 'median_metapleuro-metanotal_muscle'
-   'description': 'The metapleuro-metanotal muscle that arises ventromedially from the metapectus.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'PATO_0000300':
    'prefix': 'immobile'
    'body': 'immobile'
    'description': 'A mobility quality inhering in a bearer by virtue of the bearer\'s being incapable to move freely.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'HAO_0001373':
+   'prefix': 'median_metapleuro-metanotal_muscle'
+   'body': 'median_metapleuro-metanotal_muscle'
+   'description': 'The metapleuro-metanotal muscle that arises ventromedially from the metapectus.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0002521':
@@ -31259,16 +31259,16 @@ Example: The ISO document specifying what encompasses an XML document; The instr
    'description': 'A figure that expresses one or more propositions'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'HAO_0002427':
-   'prefix': 'apical_setae_of_T3'
-   'body': 'apical_setae_of_T3'
-   'description': 'The row of setae that is transverse and located distally on the third metasomal mediotergite and is composed of setae at least 2 times as long as other setae on the metasoma.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'HAO_0000139':
    'prefix': 'apical_process_of_the_labrum'
    'body': 'apical_process_of_the_labrum'
    'description': 'The process that located distomedially on the labrum.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'HAO_0002427':
+   'prefix': 'apical_setae_of_T3'
+   'body': 'apical_setae_of_T3'
+   'description': 'The row of setae that is transverse and located distally on the third metasomal mediotergite and is composed of setae at least 2 times as long as other setae on the metasoma.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'HAO_0001141':
@@ -31691,16 +31691,16 @@ Example: The ISO document specifying what encompasses an XML document; The instr
    'description': 'The muscle that arises laterally from the metapleuron and iserts on the muscle bearing process of the metanotum.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'HAO_0002406':
-   'prefix': 'harpe_width'
-   'body': 'harpe_width'
-   'description': 'The width of the harpe in lateral view.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'PATO_0000977':
    'prefix': 'obsolete_absolute_permeability_value'
    'body': 'obsolete_absolute_permeability_value'
    'description': ''
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'HAO_0002406':
+   'prefix': 'harpe_width'
+   'body': 'harpe_width'
+   'description': 'The width of the harpe in lateral view.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0001662':
@@ -32291,12 +32291,6 @@ Example: The ISO document specifying what encompasses an XML document; The instr
    'description': 'A reproductive quality inhering in the young of an animal by virtue of the bearer\'s disposition to survive and develop normally.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'PATO_0050000':
-   'prefix': 'rate_of_occurence'
-   'body': 'rate_of_occurence'
-   'description': 'The number of repeated events per unit time, occurring in a repeating series. (e.g. the number of heart beats occurring over 1 minute)'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'PATO_0000498':
    'prefix': 'increased_duration'
    'body': 'increased_duration'
@@ -32319,6 +32313,12 @@ Example: The ISO document specifying what encompasses an XML document; The instr
    'prefix': 'chalaza'
    'body': 'chalaza'
    'description': 'The seta that is located on a process.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'PATO_0050000':
+   'prefix': 'rate_of_occurence'
+   'body': 'rate_of_occurence'
+   'description': 'The number of repeated events per unit time, occurring in a repeating series. (e.g. the number of heart beats occurring over 1 minute)'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'RO_0002532':
@@ -32681,6 +32681,12 @@ Example: The ISO document specifying what encompasses an XML document; The instr
    'description': ''
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
+  'PATO_0025002':
+   'prefix': 'potable'
+   'body': 'potable'
+   'description': 'A physical quality inhering in a bearer by virtue of the bearer being suitable for use as a safe means of hydration.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
   'HAO_0000566':
    'prefix': 'mesopleuron[iri="HAO_0000566"]'
    'body': 'mesopleuron[iri="HAO_0000566"]'
@@ -32691,12 +32697,6 @@ Example: The ISO document specifying what encompasses an XML document; The instr
    'prefix': 'decreased_position'
    'body': 'decreased_position'
    'description': 'A positional which is relatively low.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
-  'PATO_0025002':
-   'prefix': 'potable'
-   'body': 'potable'
-   'description': 'A physical quality inhering in a bearer by virtue of the bearer being suitable for use as a safe means of hydration.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0001222':
@@ -35650,16 +35650,16 @@ No imports'
    'description': ''
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'PATO_0050001':
-   'prefix': 'rate_of_continuous_process'
-   'body': 'rate_of_continuous_process'
-   'description': 'The rate of output of a continuous process. Example include: growth rate, cell migration rate, enzyme reaction rate.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'HAO_0001928':
    'prefix': 'anterior_extension_of_lateral_axillar_area'
    'body': 'anterior_extension_of_lateral_axillar_area'
    'description': 'The area that is located anteroventrally on the lateral axillar area, accommodates the ventral part of the posterior extension of the preaxilla and bears the postmedian notal wing process.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'PATO_0050001':
+   'prefix': 'rate_of_continuous_process'
+   'body': 'rate_of_continuous_process'
+   'description': 'The rate of output of a continuous process. Example include: growth rate, cell migration rate, enzyme reaction rate.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'HAO_0001802':
@@ -38322,16 +38322,16 @@ distribution in terms of occurrence frequencies of different event classes.'
    'description': 'The carina that extends on the vertex between the outer orbits.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'PATO_0001011':
-   'prefix': 'obsolete_absolute_intensity'
-   'body': 'obsolete_absolute_intensity'
-   'description': ''
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'BSPO_0000009':
    'prefix': 'midsagittal_plane'
    'body': 'midsagittal_plane'
    'description': 'Sagittal plane that divides bilateral body into equal left and right parts.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'PATO_0001011':
+   'prefix': 'obsolete_absolute_intensity'
+   'body': 'obsolete_absolute_intensity'
+   'description': ''
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0000441':

@@ -180,7 +180,8 @@ ed7=make_keyword("|=|", 'has_count')
 
 ed1=make_keyword(">", 'has_part')
 ed3=make_keyword("<", 'part_of')
-ed2=make_keyword('>>', 'bearer_of')
+#ed2=make_keyword('>>', 'bearer_of')
+ed2=make_keyword('>>', 'has_characteristic')
 ed4=make_keyword('<<', 'inheres_in')
 
 

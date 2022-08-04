@@ -16,7 +16,7 @@ library(reticulate)
 dic.path.in <- 'phsDictionary'
 data.path.in <- 'data'
 onto.in <- file.path(data.path.in, 'Gryonoides_merged_ontologies.owl')
-phs.file.in <- file.path(data.path.in, 'Gryonoides.phs')
+phs.file.in <- file.path(data.path.in, 'test.phs')
 
 # Output
 results.out <- 'results'
